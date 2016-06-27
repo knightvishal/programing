@@ -1,0 +1,30 @@
+//******************************************************************************************************************************
+//
+//	File:                       HowManyCalories.cpp
+//	Student:				            Alec Ochoa Michaud
+//	Programing challenge:       Starting Out With C++, page 181 exercise 10: How many Calories ?
+//                              A bag of cookies holds 40 cookies. The calorie information on the bag claims that
+//                              there are 10 "servings" on the bag and that a serving equals 300 calories. Write a
+//                              program that asks the user to enter the number of cookies they actually ate and then
+//                              report the total calories consumed.
+//
+//*******************************************************************************************************************************
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+//Expected values
+    double cookies, calories;
+    cout<<"Enter the number of cookies you ate. " << endl;
+    cin>> cookies;
+
+    //Considering that one serving has 4 cookies and 300 cal, 1 cookie then has 75 calories.
+    calories = cookies*75;
+    cout<< endl;
+    cout<< calories << " Calories were consumed.";
+
+    return 0;
+}
