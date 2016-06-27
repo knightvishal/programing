@@ -23,7 +23,7 @@ int main() {
     ECDrevenue = percentageOfTotalSales*sales/100;
 
     cout<< "The East Coast sales division of a company generates 62 percent of total sales. " << endl;
-    cout<< "If the company generate $4.6 millions in this year. " << endl;
+    cout<< "If the company generates $4.6 millions in this year. " << endl;
     cout<< "Means that the Eas Coast division generated $ " << ECDrevenue << " millions";
     return 0;
 }
