@@ -1,0 +1,40 @@
+//******************************************************************************************************************************
+//
+//	File:                       RestaurantBill.cpp
+//	Student:				    Alec Ochoa Michaud
+//	Programing challenge:       Starting Out With C++ 7th edition. Page 100, exercise 4.
+//							    Write a program that computes the tax and tips on a restaurant bill for a patron with a
+//                              $44.50 meal charge. The tax should ve 6.75 percent of the meal cost. The tip should be
+//                              15 percent of the total after adding the tax. Display the meal cost, tax amount,
+//                              tip amount and total bill on the scree.
+//
+//*******************************************************************************************************************************
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    // Expected values.
+    float mealCharge, tax, tip, totalTax, totalBill;
+
+    mealCharge = 44.50;
+    tax = 6.75;
+    tip = 15*mealCharge / 100;
+    totalTax = mealCharge*tax/100;
+    totalBill = mealCharge + (mealCharge*tax /100) + tip;
+
+    //Meal charge.
+    cout<< "Meal charge is $ " << mealCharge << endl;
+
+    //Calculate tax.
+    cout<< "Tax is 6.75% : $" << totalTax << endl;
+
+    //Calculate tip.
+    cout<< "Tip is 15% : $" << tip << endl;
+
+    //Calculate total bill.
+    cout<< "Total bill is: $" << totalBill;
+
+    return 0;
