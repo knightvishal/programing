@@ -1,10 +1,10 @@
 
 //***************************************************************************************
 //
-//	File:						MilesPerGalon.cpp
-//	Student:					Alec Ochoa Michaud
+//	File:				MilesPerGalon.cpp
+//	Student:			Alec Ochoa Michaud
 //	Programing challenge:		Starting Out With C++ 7th edition.
-//								Page 100, Page 100, exercise 6. Miles per Gallon. 	
+//					Page 100, exercise 6. Miles per Gallon. 	
 //***************************************************************************************								
 #include <iostream> 
 using namespace std;
