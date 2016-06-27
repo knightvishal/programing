@@ -1,0 +1,29 @@
+//******************************************************************************************************************************
+//
+//	File:                       SalesPrediction.cpp
+//	Student:				            Alec Ochoa Michaud
+//	Programing challenge:       Starting Out With C++ 7th edition. Page 100, exercise 2.
+//							                The East Coast sales division of a company generates 62 percent of total sales.
+//                              based on the percentage, write a program that will predict how much the East coast
+//                              division will generate if the company has $4.6 million is sales this year. Display
+//                              the result on the screen.
+//
+//*******************************************************************************************************************************
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+//Expected values.
+    int percentageOfTotalSales, sales, ECDrevenue;
+    percentageOfTotalSales=62;
+    sales=4600000;
+    ECDrevenue = percentageOfTotalSales*sales/100;
+
+    cout<< "The East Coast sales division of a company generates 62 percent of total sales. " << endl;
+    cout<< "If the company generate $4.6 millions in this year. " << endl;
+    cout<< "Means that the Eas Coast division generated $ " << ECDrevenue << " millions";
+    return 0;
+}
