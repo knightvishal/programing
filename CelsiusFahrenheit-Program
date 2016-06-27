@@ -1,0 +1,23 @@
+/******************************************************************************************************************************
+//
+//	File:                       CelsiusFahrenheit.cpp
+//	Student:				    Alec Ochoa Michaud
+//	Programing challenge:       Write a program that ask the user to enter the temperature in Fahrenheit,
+//                              Display the temperature in celsius. The formula is: celsius = (Fahrenheit-32) *5/9
+//
+//*******************************************************************************************************************************
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+//Expected values.
+    float fahrenheit, celsius;
+    cout<< "Type the temperature in Fahrenheit. " << endl;
+    cin>> fahrenheit;
+    celsius = (fahrenheit-32) * 5/9;
+    cout<< "This is the temperature in celsius. " << celsius << " C";
+    return 0;
+}
