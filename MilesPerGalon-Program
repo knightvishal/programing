@@ -1,16 +1,24 @@
+
+//***************************************************************************************
+//
+//	File:						MilesPerGalon.cpp
+//	Student:					Alec Ochoa Michaud
+//	Programing challenge:		Starting Out With C++ 7th edition.
+//								Page 100, Page 100, exercise 6. Miles per Gallon. 	
+//***************************************************************************************								
 #include <iostream> 
 using namespace std;
-void main (){
-char c;
+void main() {
+	char c;
 
-//Expected variables 
-int galons, miles, milesPerGal;
-galons = 16;
-miles = 350;
-milesPerGal = miles / galons;
+	//Expected variables 
+	int galons, miles, milesPerGal;
+	galons = 16;
+	miles = 350;
+	milesPerGal = miles / galons;
 
-cout<< "A car can holds 16 galons of gasoline, and can travel 350 miles befor refuling.\n\n";
-cout<< "The number of milles per galon are: " << milesPerGal << " miles per gallon.";
+	cout << "A car can holds 16 galons of gasoline, and can travel 350 miles befor refuling.\n\n";
+	cout << "The number of milles per galon are: " << milesPerGal << " miles per gallon.";
 
-cin>> c; 
+	cin >> c;
 }
