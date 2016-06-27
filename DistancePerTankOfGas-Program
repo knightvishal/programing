@@ -1,0 +1,30 @@
+//******************************************************************************************************************************
+//	
+//	File:                     DistancePerTankOfGas.cpp
+//	Student:				          Alec Ochoa Michaud	
+//	Programing challenge:   	Starting Out With C++ 7th edition. Page 100, exercise 7.  
+//							              A car with a 20 gallon gas tank average 21.5 miles per galon when driven
+//							              in town and 26.8 miles per gallon when driven on the highway. Write a program that calculates and 
+//							              displays the distance the car can tavel on one tank of gas when driven in town and when driven on 
+//							              the highway. 
+//
+//*******************************************************************************************************************************
+#include <iostream>
+using namespace std;
+void main (){
+char c;
+
+//Expected variables, using float since we are dealing with decimals numbers 
+float carFule, milesTown, milesHighWay, milesInTown, milesInHighWay;
+
+carFule = 20;
+milesTown = 21.5;
+milesHighWay = 26.8;
+TotalMilesInTown = carFule * milesTown;
+TotalMilesInHighWay = carFule * milesHighWay;
+
+cout<< " This car can travel " << TotalMilesInTown << " miles when driven in town.\n\n";
+cout << "This car can travel " << TotalMilesInHighWay << " miles when driven in highway.";
+
+cin>> c;
+}
