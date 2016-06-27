@@ -1,0 +1,34 @@
+//******************************************************************************************************************************
+//
+//	File:                         CurrencyConverter.cpp
+//	Student:				              Alec Ochoa Michaud
+//	Programing challenge:         Write a program that ask the user to enter the number of dollars he/she wishes to
+//                                convert to yens, the for euros. The currency value is fixed, however, you can ask the user
+//                                enter the current exchange rate to make it more up to date 
+//
+//*******************************************************************************************************************************
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+//Expected values.
+    double dollar1, yen_per_dollar, dollar2, euro_per_dollar;
+
+    //Dollar to Yen
+    cout<<"Type the amount of dollars you want to change for yens. ";
+    cin>> dollar1;
+    yen_per_dollar = dollar1*.952;
+    cout << endl;
+    cout<< "You can get: " << yen_per_dollar << " yen.";
+
+    //Dollar to euro.
+    cout<<"\n\nType the amount of dollars you want to change for euros. ";
+    cin>>dollar2;
+    euro_per_dollar = dollar2 * .7175;
+    cout << endl;
+    cout<<"You can get: " <<euro_per_dollar << " euros.";
+    return 0;
+}
